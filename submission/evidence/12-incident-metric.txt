@@ -1,0 +1,12 @@
+Challenge: day13-k4-l3a-monitoring-llmops-v1
+Window: 2026-09-29 08:38:56–08:39:10 UTC
+Feature: monitoring
+Requests: 5
+Latency P50: 2653 ms
+Latency P95/P99: 2658 ms
+Challenge threshold: 2000 ms
+Requests above threshold: 5/5
+TTFT max: 50 ms
+Errors: 0
+
+Interpretation: request latency breached the challenge threshold while TTFT and availability remained healthy.

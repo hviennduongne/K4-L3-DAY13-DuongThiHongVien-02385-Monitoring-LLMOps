@@ -1,0 +1,27 @@
+Structured log evidence (selected safe fields from request req-7669f141):
+
+request_received:
+  ts: 2026-09-29T08:38:56.779934Z
+  level: info
+  service: api
+  event: request_received
+  correlation_id: req-7669f141
+  feature: monitoring
+  model: claude-sonnet-4-5
+  env: dev
+  user_id_hash: aae0b94055a9
+
+response_sent:
+  ts: 2026-09-29T08:38:59.447032Z
+  level: info
+  service: api
+  event: response_sent
+  correlation_id: req-7669f141
+  latency_ms: 2658
+  ttft_ms: 50
+  tool_name: retrieval
+  tool_success: true
+  tokens_in: 34
+  tokens_out: 180
+  cost_usd: 0.002802
+  quality_score: 0.9

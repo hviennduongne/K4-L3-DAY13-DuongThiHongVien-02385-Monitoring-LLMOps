@@ -1,0 +1,12 @@
+Challenge log evidence:
+
+ts: 2026-09-29T08:38:59.447032Z
+event: response_sent
+correlation_id: req-7669f141
+feature: monitoring
+latency_ms: 2658
+ttft_ms: 50
+tool_name: retrieval
+tool_success: true
+
+This correlation ID maps to Langfuse trace 10014399a6937e4ae478cf5872c05b35.

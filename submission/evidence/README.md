@@ -13,6 +13,7 @@ Tên file gợi ý:
 06-trace-list.png
 07-trace-waterfall.png
 08-trace-metadata.png
+08b-trace-prompt-metadata.png
 09-prompt-versions.png
 10-prompt-rollback.png
 11-dashboard-overview.png

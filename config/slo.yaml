@@ -7,7 +7,12 @@ primary_slo:
     total_event: 'event == "request_received"'
   target_percent: 99.5
   error_budget_percent: 0.5
-  note: Học viên phải giải thích hoặc điều chỉnh ngưỡng bằng baseline của mình.
+  rationale: Baseline CP1 có latency dưới 3000 ms sau lần warm-up; ngưỡng này bảo vệ tail latency mà không tính request khởi động lạnh là lỗi kéo dài.
+  error_budget:
+    allowed_bad_event_percent: 0.5
+    window_minutes: 40320
+    equivalent_unavailable_minutes: 201.6
+    calculation: '28 * 24 * 60 * (1 - 0.995) = 201.6 minutes; theo request là floor(total_requests * 0.005) bad requests.'
 guardrails:
   error_rate_pct_max: 2
   daily_cost_usd_max: 2.5

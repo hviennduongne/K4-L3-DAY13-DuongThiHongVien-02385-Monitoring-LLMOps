@@ -1,0 +1,10 @@
+PII redaction evidence for correlation_id req-deadbeef:
+
+Input contained synthetic email, Vietnamese phone, CCCD and payment-card examples.
+
+Sanitized message_preview:
+Email [REDACTED_EMAIL] phone [REDACTED_PHONE_VN] CCCD [REDACTED_CCCD] card [REDACTED_CREDIT_CARD]
+
+Validator result:
+Potential PII leaks detected: 0
++ [PASSED] PII scrubbing
