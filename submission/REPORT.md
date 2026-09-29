@@ -6,7 +6,7 @@
 
 - **Họ và tên:** Dương Thị Hồng Viên
 - **MSSV:** 2A202602385
-- **Lớp:** K4-L3A
+- **Lớp:** L34A
 - **Repository URL:** https://github.com/hviennduongne/K4-L3-DAY13-DuongThiHongVien-02385-Monitoring-LLMOps
 - **Commit SHA cuối:** Chưa chốt — điền SHA sau khi tạo và push commit nộp cuối.
 - **Challenge ID:** `day13-k4-l3a-monitoring-llmops-v1`
